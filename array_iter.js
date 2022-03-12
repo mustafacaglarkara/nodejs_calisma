@@ -13,5 +13,14 @@ for(let item in numbers){
 for(let item of numbers){
     console.log(item);
 }
+// foreach index number
+numbers.forEach((index,num)=>{
+    console.log(`Number ${num} index : ${index}`)
+})
 
 console.log(numbers);
+
+
+
+
+
